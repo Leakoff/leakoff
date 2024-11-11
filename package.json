@@ -4,14 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run sass",
-    "sass": "sass leakoff/assets/scss/"
+    "build": "sass assets/scss/main.scss assets/css/main.css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
-    "sass": "^1.80.6"
+    "glightbox": "^3.3.0",
+    "imagesloaded": "^5.0.0",
+    "isotope-layout": "^3.0.6",
+    "sass": "^1.80.6",
+    "swiper": "^11.1.14",
+    "waypoints": "^4.0.1"
   }
 }
